@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Triangles</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h2>Check Triangle</h2>
+              <form id="new-triangle">
+                <div class="form-group">
+                  <label for="new-triangle"></label>
+                  <input type="text" class="form-control" id="side1" placeholder="Side 1">
+                  <input type="text" class="form-control" id="side2" placeholder="Side 2">
+                  <input type="text" class="form-control" id="side3" placeholder="Side 3">
+                </div>
+                <button type="submit" class="btn btn-primary">Check!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Equilateral</h3>
+            </div>
+            <div class="equ-list">
+              <ul class="list-group"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Isosceles</h3>
+            </div>
+            <div class="iso-list">
+              <ul class="list-group"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Scalene</h3>
+            </div>
+            <div class="scal-list">
+              <ul class="list-group"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
